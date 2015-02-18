@@ -477,6 +477,16 @@ color:white;
     color:#3e3621;
 }
 
+.service h3:before{
+
+  content:"- ";
+}
+
+.service h3:after{
+
+  content:" -";
+}
+
 .service p img{
 
     float: left;
@@ -842,43 +852,59 @@ margin:10px;
 
 /*Estilo Contacto*/
 
-.fila1{
-    width:50%;
-    float:left;
-    margin-top: 20px;
-}
-
-#forma p{
-   color:rgb(105, 60, 16);
-    font-weight: bold; 
-    font-size: 20px;
+.contactame{
+    width:76%;
+    margin: 0 auto;
+    position: relative;
 }
 
 
 
-#forma{
-    margin-left:15%;
-    width: 90%;
+
+
+#formulario{
+    display: none;
+    width: 100%;
+    height: 120px;
+
     
 }
 .caja{
 
-    width:250px;
+    width:200px;
     height: 23px;
     box-shadow: 4px 4px 10px rgb(105, 60, 16);
     border-radius:5px;
- 
+    padding-left: 10px;
+    font-size: 16px;
+        
 }
 
-.cajaGrande{
 
-    width:300px;
+
+.ld{
+
+    width:428px;
+    height:70px;
+    display: block;
     box-shadow: 4px 4px 10px rgb(105, 60, 16);
     border-radius:5px;
-    height: 200px;
+    margin-top: 10px;
+    font-size: 16px;
    
+ 
 }
+.enviar{font-size: 18px; border-radius: 3px; float: left; margin: 10px;}
 
+
+.te{
+
+  width: 40%;
+  position: absolute;
+  top:0;
+  right: 0;
+  color:white;
+}
 .impo{
 
   font-size: 19px;
@@ -917,7 +943,7 @@ margin:10px;
 
 
 
-.enviar{font-size: 18px; border-radius: 3px;}
+
 
 
 

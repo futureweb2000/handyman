@@ -92,12 +92,38 @@
 			<li class="item-menu"><a href="services/all-services.html">Services</a></li>
 			<li class="item-menu"><a href="aboutUs.html">About Us</a></li>
 			<li class="item-menu"><a href="gallery.html">Gallery</a></li>
-			<li class="item-menu"><a href="contact.html">Contact</a></li>
+			<li class="item-menu"><a href="#" id="show">Contact</a></li>
 			
 
 		</ul>
 	</nav>
 
+	<div class="contactame">
+	
+		<form id="formulario">
+
+			<input type="text" name="nombre" class="caja" placeholder="Name"required>
+	
+		
+			<!-- <input type="email" name="email" class="caja" placeholder="E-mail" required>
+	 -->
+		
+			<input type="text" name="telefono" class="caja" placeholder="Telephone" required>
+		
+		
+			<input type="text" name="mensaje" class="ld" required placeholder="Message">
+			
+
+			<input type="submit" value="ENVIAR" class="enviar">
+				
+		</form>
+			
+			<div class="te">
+				<h3>Just Call it easier!</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum expedita eum placeat voluptates officiis libero natus, sapiente a. </p>
+				<p>1-805-3-4-56-77</p>
+			</div>
+	</div>
 <div id="wrapper">        
      <ul class="rslides" id="slider1">
       
@@ -345,6 +371,13 @@ We are dedicated to using capable, qualified craftsmen to perform services for o
 	<footer class="footer">
 <h3>COPYRIGHT Sando Handyman &#169;</h3>
 	</footer>
+<script>
+	
+	$('#show').click(function(){
 
+		$("#formulario").slideToggle();
+		return false
+	});
+</script>
 </body>
 </html>
