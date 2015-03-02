@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
 	<link rel="icon" type="image/x-icon" href="../img/logo2.ico" />
   <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
-  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 </head>
 <body id="home">
 
@@ -46,11 +46,39 @@
 			<li class="item-menu"><a href="all-services.html">Services</a></li>
 			<li class="item-menu"><a href="../aboutUs.html">About Us</a></li>
 			<li class="item-menu"><a href="../gallery.html">Gallery</a></li>
-			<li class="item-menu"><a href="../contact.html">Contact</a></li>
+			<li class="item-menu"><a href="#">Contact</a></li>
 			
 
 		</ul>
 	</nav>
+
+	<div class="contactame not-active">
+	
+		<form id="formulario">
+
+			<input type="text" name="nombre" class="caja" placeholder="Name"required>
+	
+		
+			<!-- <input type="email" name="email" class="caja" placeholder="E-mail" required>
+	 -->
+		
+			<input type="text" name="telefono" class="caja" placeholder="Telephone" required>
+		
+		
+			<input type="text" name="mensaje" class="ld" required placeholder="Message">
+			
+
+			<input type="submit" value="ENVIAR" class="enviar">
+				
+		</form>
+			
+			<div class="te">
+				<h3>Just Call it easier!</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum expedita eum placeat voluptates officiis libero natus, sapiente a. </p>
+				<p>1-805-3-4-56-77</p>
+			</div>
+	</div>
+
 
 	<section class="contenido">
 		<article class="imagenes-spot">
@@ -110,6 +138,6 @@
 	<footer class="footer">
 <h3>COPYRIGHT Sando Handyman &#169;</h3>
 	</footer>
-
+	<script src="../js/main.js"></script>
 </body>
 </html>
